@@ -1,0 +1,97 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.2em;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 40px 10px;
+  line-height: 1.65em;
+  background-image: url("fundocidade.png");
+  color: #FFF;
+  font-weight: 300;
+  -webkit-user-select: none;
+	-moz-user-select: none;     
+	-ms-user-select: none;      
+	-o-user-select: none;
+	user-select: none;
+
+}
+
+h1 {
+  text-align: center;
+  margin: 20% 0 5% 0;
+}
+
+h4 {
+  text-align: center;
+  margin: 20% 0 5% 0;
+}
+
+#wordbox {
+    /*opacity: 0;*/
+    margin: 30px auto 0;
+    display: block;
+    width: 500px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    background: #fff;
+    border-radius: 6px;
+    color: #black;
+    transition: 1s linear;
+}
+
+#button {
+    background-image: url("botao.png");
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    padding: 1.18em 3.9em;
+    cursor: pointer;
+    margin: 0 auto 80px;
+    display: block;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+}
+header {
+	margin-top: 10px;
+	position: absolute;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+}
+nav {
+	margin-top: 40px;
+	float: right;
+	color: #FFF;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	margin: 0;
+}
+nav li{
+	display: inline;
+	float: left;
+}
+nav li a{
+	font-size: 20px;
+	text-decoration: none;
+	margin: 0px 10px 0px 10px;
+	color: #FFF;
+}
+nav li a:hover{
+	color: #88a0ad;
+	transition: 0.3s;
+}
+.imagem {
+	cursor: pointer;
+	width: 320px;
+	margin-left: -200px;
+	margin-top: -100px;
+}
+#button:hover{
+	background-color: #00008B;
+}
